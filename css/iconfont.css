@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1680050841926') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-31sousuo:before {
+  content: "\f01fd";
+}
+
+.icon-shouji901:before {
+  content: "\e6f2";
+}
+
+.icon-icon-test:before {
+  content: "\e607";
+}
+
+.icon-bingxiang:before {
+  content: "\e64b";
+}
+
+.icon-television:before {
+  content: "\e610";
+}
+
+.icon-sanxing:before {
+  content: "\e654";
+}
+
+.icon-dianshi:before {
+  content: "\e633";
+}
+
+.icon-shouji_o:before {
+  content: "\eb4d";
+}
+
+.icon-thin-_mobile_iph:before {
+  content: "\e608";
+}
+
+.icon-qiyejixiaopingjia:before {
+  content: "\e645";
+}
+
+.icon-014xianshiqi-3:before {
+  content: "\e7f0";
+}
+
+.icon-student:before {
+  content: "\e624";
+}
+
+.icon-gouwuche:before {
+  content: "\e606";
+}
+

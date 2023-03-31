@@ -1,0 +1,569 @@
+/*导航栏*/
+.Navigation {
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+}
+
+/*版心*/
+.wrap {
+    height: 80px;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/*三星logo*/
+.logo {
+    width: 100px;
+    height: 35px;
+    float: left;
+    margin-top: 22.5px;
+    text-align: left;
+    transform: translateY(40%);
+    /*移动*/
+}
+
+.logo img {
+    width: 100px;
+}
+
+/*右侧部分*/
+.navRight {
+    width: 370.67px;
+    height: 36px;
+    float: left;
+    margin-top: 32px;
+}
+
+/*搜索栏*/
+.searchBlock {
+    display: inline-block;
+    width: 220px;
+    height: 100%;
+    border: 0.67px solid rgb(191, 192, 193);
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 0 15px 0 30px;
+}
+
+.searchBlock input {
+    float: left;
+    width: 150px;
+    height: 34px;
+}
+
+.searchBlock input:focus {
+    outline: medium;
+    /*去掉input的点击边框*/
+}
+
+.searchBlock button {
+    float: left;
+    width: 22px;
+    height: 34px;
+    background-color: #FFFFFF;
+    border: 0;
+    /*按钮自己带有边框，需要手动去除*/
+}
+
+.searchBlock button img {
+    max-width: 22px;
+    max-height: 18px;
+}
+
+/*购物车*/
+.shoppingCart {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.shoppingCart button {
+    float: right;
+    text-align: right;
+    width: 30px;
+    height: 34px;
+    background-color: #FFFFFF;
+    border: 0;
+}
+
+.shoppingCart button img {
+    max-width: 24px;
+    max-height: 24px;
+}
+
+/*登录注册*/
+.navRight span {
+    float: right;
+    width: 70px;
+    height: 18px;
+    margin: 10px 0;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*主导航栏*/
+.navBar {
+    height: 80px;
+    float: left;
+    padding: 0 250px 0 86.67px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.navBar ul {
+    height: 100%;
+}
+
+.navBar ul li {
+    float: left;
+    padding: 6px 12px;
+    list-style: none;
+    line-height: 80px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navBar ul li a:hover {
+    background-color: #000000;
+    border-radius: 25px;
+    color: #FFFFFF;
+}
+
+/*跳转菜单*/
+.subMenu {
+    width: 100%;
+    height: 180px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/*版心*/
+.wrapper {
+    width: 1400px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper div {
+    width: 118px;
+    height: 100px;
+    margin: 20px 0;
+}
+
+.wrapper div img {
+    max-width: 40px;
+    height: 40px;
+}
+
+.subMenu .wrapper .title {
+    height: 20px;
+    font-size: 12px;
+    color: #000000;
+    text-align: center;
+}
+
+/*广告*/
+.advertisementBox {
+    width: 100%;
+    height: 500px;
+}
+
+/*版心*/
+.mainWrap {
+    width: 1400px;
+    height: 450px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 40px 40px 40px;
+    margin: 0 auto;
+}
+
+.mainWrap div {
+    width: 288px;
+    height: 386px;
+    margin: 0 25px;
+    border-radius: 20px;
+    background-color: rgb(241, 241, 241);
+}
+
+.mainWrap div img {
+    width: 288px;
+    height: 386px;
+}
+
+/*背景不同板块*/
+.either {
+    background-color: rgb(241, 241, 241);
+}
+
+.title {
+    width: 1021px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    margin: 0 40px;
+}
+
+/*热销推荐*/
+.hotContent {
+    width: 100%;
+    height: 700px;
+}
+
+.hotWrap {
+    width: 1400px;
+    height: 613px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.hotList {
+    margin-left: 80px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hotList div {
+    width: 380px;
+    height: 506px;
+    margin: 17px 18px 0 18px;
+}
+
+.hotList div img {
+    max-width: 380px;
+}
+
+/*新品区*/
+.newBox {
+    width: 100%;
+    height: 800px;
+}
+
+.newWrap {
+    width: 1400px;
+    height: 680px;
+    margin: 0 auto;
+    padding: 40px 0 10px 0;
+}
+
+.itemBox {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    margin: 19px 0 0 40px;
+}
+
+/*左盒子*/
+.leftBox {
+    width: 504px;
+    height: 604px;
+    border-radius: 15px;
+    padding: 6px 0 0 0;
+    margin-right: 20px;
+    background-color: #FFFFFF;
+}
+
+.leftBox img {
+    max-width: 415px;
+    max-height: 415px;
+    margin: 20px 0;
+}
+
+.leftBox .item {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.leftBox .information {
+    font-size: 12px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.leftBox .price {
+    font-size: 14px;
+    color: #004098;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/*右盒子*/
+.rightBox {
+    width: 707px;
+    height: 604px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.product {
+    width: 345px;
+    height: 285px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+
+.rightBox img {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 20px 0;
+}
+
+.rightBox .item {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.rightBox .information {
+    font-size: 12px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.rightBox .price {
+    font-size: 12px;
+    color: #004098;
+    text-align: center;
+}
+
+/*手机/平板*/
+.phoneBox {
+    width: 100%;
+    height: 800px;
+}
+
+.phoneWrap {
+    width: 1400px;
+    height: 680px;
+    margin: 0 auto;
+    padding: 40px 0 10px 0;
+}
+
+.phoneList {
+    width: 1400px;
+    height: 600px;
+    margin: 20px 40px;
+}
+
+/*左边部分*/
+.leftPhone {
+    width: 296px;
+    height: 589px;
+    float: left;
+    border-radius: 15px;
+}
+
+.leftPhone img {
+    max-width: 296px;
+    max-height: 589px;
+}
+
+/*右边部分*/
+.rightPhone {
+    width: 922px;
+    height: 589px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+/*右上区域*/
+.rightTop {
+    width: 100%;
+    height: 289px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phoneProduct {
+    width: 223px;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.phoneProduct img {
+    max-width: 156px;
+    max-height: 156px;
+    margin: 25px 0;
+}
+
+.phoneProduct .item {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.phoneProduct .information {
+    font-size: 12px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.phoneProduct .price {
+    font-size: 12px;
+    color: #004098;
+    text-align: center;
+}
+
+.phoneProduct .price del {
+    color: #AAAAAA;
+    margin-left: 5px;
+}
+
+/*右下区域*/
+.rightBottom {
+    width: 100%;
+    height: 289px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.rightBottom .phoneProduct {
+    display: inline-block;
+    width: 223px;
+    height: 260px;
+}
+
+.rightBottom .phoneProduct img {
+    margin: 15px 0;
+}
+
+/*页脚*/
+.footer {
+    width: 100%;
+    height: 900px;
+}
+
+.footWrap {
+    width: 1400px;
+    height: 816px;
+    margin: 0 auto;
+    padding: 40px 0 10px 0;
+    display: flex;
+    justify-content: start;
+}
+
+.footLeft {
+    width: 914px;
+    height: 100%;
+}
+
+.leftTop {
+    width: 712px;
+    height: 124px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service1 {
+    width: 303px;
+    height: 52px;
+}
+
+.service1 img {
+    max-width: 52px;
+    max-height: 52px;
+}
+
+.leftBottom {
+    width: 712px;
+    height: 692px;
+}
+
+.leftBottom li {
+    float: left;
+    list-style: none;
+    width: 140px;
+    height: 324px;
+    margin: 0 10px;
+}
+
+.leftBottom span {
+    display: inline-block;
+    width: 140px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.leftBottom a {
+    display: inline-block;
+    width: 140px;
+    margin: 5px 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+.leftBottom li a:hover {
+    color: rgb(33, 33, 122);
+    text-decoration: underline;
+}
+
+.footLeft .leftBottom .list {
+    width: 172px;
+    border-right: 1px solid #757575;
+}
+
+.footRight {
+    width: 326px;
+    height: 440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footRight .borderLi {
+    width: 303px;
+    height: 72px;
+    border-bottom: 1px solid #757575;
+    padding: 20px 0;
+}
+
+.footRight img {
+    max-width: 52px;
+    max-height: 52px;
+}
+
+.footRight .last .attention {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.footRight .last .attention li:first-child {
+    padding-top: 30px;
+}
+
+.attention img {
+    max-width: 40px;
+    max-height: 40px;
+    text-align: center;
+}
+
+.attention span {
+    width: 52px;
+    text-align: center;
+}
